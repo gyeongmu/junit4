@@ -191,6 +191,9 @@
                     </execution>
                 </executions>
             </plugin>
+            
+            <!-- 새로운 로직 -->
+            
             <!--
             <plugin>
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
