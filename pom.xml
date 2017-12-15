@@ -73,7 +73,7 @@
         <developerConnection>scm:git:git@github.com:junit-team/junit4.git</developerConnection>
         <url>http://github.com/junit-team/junit4/tree/master</url>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
     <issueManagement>
         <system>github</system>
         <url>https://github.com/junit-team/junit4/issues</url>
@@ -447,6 +447,11 @@
                         </reports>
                     </reportSet>
                 </reportSets>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.8</version>
             </plugin>
         </plugins>
     </reporting>
